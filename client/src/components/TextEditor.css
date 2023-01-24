@@ -1,0 +1,15 @@
+.ql-container .ql-editor {
+    width: 80vw;
+    height: 80vh;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+    background-color: white;
+    border-radius: 4px;
+}
+
+.ql-container .ql-snow {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
