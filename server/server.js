@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const io = require("socket.io")(3001, {
+const io = require("socket.io")(process.env.PORT || 8080, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: '*',
         methods: ["GET", "POST"],
     },
 });
