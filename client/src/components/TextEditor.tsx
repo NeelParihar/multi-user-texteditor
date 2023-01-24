@@ -11,7 +11,7 @@ function TextEditor() {
   const [quill, setQuill] = useState<Quill>();
 
   useEffect(() => {
-    const s = io(process.env.REACT_BACKEND_URL || "http://localhost:3001");
+    const s = io(process.env.REACT_APP_BACKEND_URL || "http://localhost:3001");
     setSocket(s);
 
     return () => {
