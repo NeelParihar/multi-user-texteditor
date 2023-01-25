@@ -82,7 +82,8 @@ function TextEditor() {
   }, [socket, quill]);
 
   /**
-   * use Effect for sending changes done using quill
+   * wrapperRef for rendering quill editor in a container and 
+   * will only trigger when the application is mounted
    */
   const wrapperRef = useCallback((wrapper: any) => {
     if (wrapper == null) return;

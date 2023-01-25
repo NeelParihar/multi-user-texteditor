@@ -1,6 +1,6 @@
 import { Socket } from "socket.io";
 
-const io = require("socket.io")(process.env.PORT ||8080, {
+const io = require("socket.io")(process.env.PORT ||3001, {
   cors: {
     origin: '*',
     methods: ["GET", "POST"],
