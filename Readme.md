@@ -4,7 +4,7 @@
 
 This project is a simple multi-user real-time collaborative text editor built using Quill.js on the frontend and Node.js on the backend. The frontend is written in React.js and uses Quill.js as the rich text editor, while the backend is written in Node.js and uses socket.io for real-time communication between clients.
 
-Deployed link : (Click!)[https://text-editor-frontend-production.up.railway.app/]
+Deployed link : [Click!](https://text-editor-frontend-production.up.railway.app/)
 
 To build and run the frontend app:
 1. Clone the repository
